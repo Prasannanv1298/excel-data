@@ -19,7 +19,8 @@ public class read_excel {
 			for (int j = 0; j < 2; j++) {
 				XSSFCell cell = row.getCell(j);
 				String value = cell.getStringCellValue();
-				System.out.println(value);
+				System.out.println(value); 
+				System.out.println("hi");
 			} 
 		}
 	}
